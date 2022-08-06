@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0px;
+    outline: 0px;
+    padding: 0px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./assets/bg1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* height: 10vh; */
+    padding: 50px;
+
+}
+.nav-items ul li{
+    height: 100%;
+    margin-bottom: 40px;
+}
+.nav-items ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #FFF;
+}
+
+nav i{
+    margin-right: 15px;
+}
+.items li:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-title{
+    font-size: 4rem;
+}
+.card{
+    background-color: rgba(248, 247, 216, 0.503);
+    position: absolute;
+    padding: 20px;
+}
+.card1{
+    top:30vh;
+    right: 10vw;
+}
+.card2{
+    top:70vh;
+    right: 40vw;
+}
+.card1-point{
+    position: relative;
+    left: 140px;
+    bottom: -68px;
+    width: 30%;
+    transform: rotate(90deg);
+}
+.card2-point{
+    position: relative;
+    left: 258px;
+    bottom: 50px;
+    width: 30%;
+   
+}
+.main{
+    padding: 50px;
+}
+button{
+    margin-top: 30px;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+}
+.card-icon{
+    background-color: #FFF;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    color: black;
+}
